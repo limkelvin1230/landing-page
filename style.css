@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer,
+.sec-div {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+}
+
+header ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+#hero-logo,
+#hero-main {
+  color: #f9faf8;
+}
+
+#hero-logo {
+  font-size: 24px;
+}
+
+#hero-main {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+a,
+#hero-sec {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+button,
+.cta {
+  background-color: #3882f6;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #f9faf8;
+  border: none;
+  font-size: 17px;
+}
+
+.sec-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 80px 80px;
+}
+
+.hero-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100vw;
+}
+
+.hero-div div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.third-div,
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 80px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.img-container {
+  display: flex;
+  gap: 17px;
+  text-align: center;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.img-container div {
+  width: 200px;
+}
+
+.img-container img {
+  border: #3882f6 3px solid;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.forth-div {
+  background-color: #e5e7eb;
+  color:#1f2937;
+  font-style: italic;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 80px;
+  font-size: 36px;
+}
+
+.forth-div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+  margin-left: auto;
+}
+
+.cta {
+  width: 100%;
+  padding: 35px 70px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+}
+
+.cta button {
+  border: 2px solid #f9faf8;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px 0px;
+  color: #f9faf8;
+}
